@@ -1,0 +1,15 @@
+	component DSD is
+		port (
+			clk_clk                            : in  std_logic                     := 'X';             -- clk
+			led_pio_clk_clk                    : in  std_logic                     := 'X';             -- clk
+			led_pio_external_connection_export : out std_logic_vector(7 downto 0);                     -- export
+			led_pio_reset_reset_n              : in  std_logic                     := 'X';             -- reset_n
+			led_pio_s1_address                 : in  std_logic_vector(1 downto 0)  := (others => 'X'); -- address
+			led_pio_s1_write_n                 : in  std_logic                     := 'X';             -- write_n
+			led_pio_s1_writedata               : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			led_pio_s1_chipselect              : in  std_logic                     := 'X';             -- chipselect
+			led_pio_s1_readdata                : out std_logic_vector(31 downto 0);                    -- readdata
+			reset_reset_n                      : in  std_logic                     := 'X'              -- reset_n
+		);
+	end component DSD;
+

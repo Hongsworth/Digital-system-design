@@ -1,0 +1,135 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 512 368)
+	(text "DSD" (rect 243 -1 263 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 352 20 364)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 224 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "led_pio_clk_clk" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "led_pio_clk_clk" (rect 4 101 94 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 224 112)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "led_pio_reset_reset_n" (rect 0 0 89 12)(font "Arial" (font_size 8)))
+		(text "led_pio_reset_reset_n" (rect 4 181 130 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 224 192)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "led_pio_s1_address[1..0]" (rect 0 0 97 12)(font "Arial" (font_size 8)))
+		(text "led_pio_s1_address[1..0]" (rect 4 221 148 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 224 232)(line_width 3))
+	)
+	(port
+		(pt 0 248)
+		(input)
+		(text "led_pio_s1_write_n" (rect 0 0 75 12)(font "Arial" (font_size 8)))
+		(text "led_pio_s1_write_n" (rect 4 237 112 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 224 248)(line_width 1))
+	)
+	(port
+		(pt 0 264)
+		(input)
+		(text "led_pio_s1_writedata[31..0]" (rect 0 0 105 12)(font "Arial" (font_size 8)))
+		(text "led_pio_s1_writedata[31..0]" (rect 4 253 166 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 224 264)(line_width 3))
+	)
+	(port
+		(pt 0 280)
+		(input)
+		(text "led_pio_s1_chipselect" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "led_pio_s1_chipselect" (rect 4 269 130 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 224 280)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 325 82 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 224 336)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "led_pio_external_connection_export[7..0]" (rect 0 0 161 12)(font "Arial" (font_size 8)))
+		(text "led_pio_external_connection_export[7..0]" (rect 4 141 244 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 224 152)(line_width 3))
+	)
+	(port
+		(pt 0 296)
+		(output)
+		(text "led_pio_s1_readdata[31..0]" (rect 0 0 105 12)(font "Arial" (font_size 8)))
+		(text "led_pio_s1_readdata[31..0]" (rect 4 285 160 296)(font "Arial" (font_size 8)))
+		(line (pt 0 296)(pt 224 296)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 209 43 436 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 229 67 476 144)(font "Arial" (color 0 0 0)))
+		(text "led_pio_clk" (rect 159 83 384 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 229 107 476 224)(font "Arial" (color 0 0 0)))
+		(text "led_pio_external_connection" (rect 60 123 282 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 229 147 494 304)(font "Arial" (color 0 0 0)))
+		(text "led_pio_reset" (rect 145 163 368 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 229 187 500 384)(font "Arial" (color 0 0 0)))
+		(text "led_pio_s1" (rect 163 203 386 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 229 227 500 464)(font "Arial" (color 0 0 0)))
+		(text "write_n" (rect 229 243 500 496)(font "Arial" (color 0 0 0)))
+		(text "writedata" (rect 229 259 512 528)(font "Arial" (color 0 0 0)))
+		(text "chipselect" (rect 229 275 518 560)(font "Arial" (color 0 0 0)))
+		(text "readdata" (rect 229 291 506 592)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 195 307 420 627)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 229 331 500 672)(font "Arial" (color 0 0 0)))
+		(text " DSD " (rect 489 352 1008 714)(font "Arial" ))
+		(line (pt 224 32)(pt 288 32)(line_width 1))
+		(line (pt 288 32)(pt 288 352)(line_width 1))
+		(line (pt 224 352)(pt 288 352)(line_width 1))
+		(line (pt 224 32)(pt 224 352)(line_width 1))
+		(line (pt 225 52)(pt 225 76)(line_width 1))
+		(line (pt 226 52)(pt 226 76)(line_width 1))
+		(line (pt 225 92)(pt 225 116)(line_width 1))
+		(line (pt 226 92)(pt 226 116)(line_width 1))
+		(line (pt 225 132)(pt 225 156)(line_width 1))
+		(line (pt 226 132)(pt 226 156)(line_width 1))
+		(line (pt 225 172)(pt 225 196)(line_width 1))
+		(line (pt 226 172)(pt 226 196)(line_width 1))
+		(line (pt 225 212)(pt 225 300)(line_width 1))
+		(line (pt 226 212)(pt 226 300)(line_width 1))
+		(line (pt 225 316)(pt 225 340)(line_width 1))
+		(line (pt 226 316)(pt 226 340)(line_width 1))
+		(line (pt 0 0)(pt 512 0)(line_width 1))
+		(line (pt 512 0)(pt 512 368)(line_width 1))
+		(line (pt 0 368)(pt 512 368)(line_width 1))
+		(line (pt 0 0)(pt 0 368)(line_width 1))
+	)
+)
