@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Work/DSD_Material_Students/DSD_Material_Students/system_template_de1_soc/") File("hello_world_time_limited.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA5F31) Path("F:/Imperial/DSD_ref/") File("hello_world_time_limited.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
